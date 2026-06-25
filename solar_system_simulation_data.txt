@@ -1,0 +1,152 @@
+================================================================================
+  N-Body Gravitational Simulator — Solar System Simulation Data
+  Simulador Gravitacional de N-Corpos — Dados da Simulação do Sistema Solar
+================================================================================
+
+================================================================================
+  SIMULATION PARAMETERS / PARÂMETROS DA SIMULAÇÃO
+================================================================================
+
+  Total time / Tempo total           :  31536000 s  (~1 Earth year / ~1 ano terrestre)
+  Time step / Intervalo de tempo (dt):  21600 s  (6 hour / 6 horas)
+  Gravitational constant / Constante gravitacional (G): 6.67430e-11 m³ kg⁻¹ s⁻²
+  Softening parameter / Parâmetro de softening (ε)    : 1.0 m
+
+  Integrator / Integrador: Euler-Cromer (semi-implicit / semi-implícito)
+
+  Note / Nota:
+    Positions correspond to each planet's perihelion distance.
+    Velocities are NASA mean orbital velocities.
+    The spatial layout is artificial, planets are distributed across
+    perpendicular axes for visual separation, and does not represent
+    any real Solar System configuration at a specific date.
+
+    As posições correspondem à distância de periélio de cada planeta.
+    As velocidades são as velocidades orbitais médias da NASA.
+    A configuração espacial é artificial, os planetas estão distribuídos
+    em eixos perpendiculares para separação visual, e não representa
+    nenhuma configuração real do Sistema Solar em uma data específica.
+
+================================================================================
+  BODY DATA / DADOS DOS CORPOS
+================================================================================
+
+--------------------------------------------------------------------------------
+  [1] Sun / Sol
+--------------------------------------------------------------------------------
+  Mass / Massa                        :  1.9885e+30 kg
+  Initial position / Posição inicial  :  X =  0.0000e+00 m
+                                         Y =  0.0000e+00 m
+                                         Z =  0.0000e+00 m
+  Initial velocity / Velocidade inicial:  VX =  0 m/s
+                                          VY =  0 m/s
+                                          VZ =  0 m/s
+  Color / Cor (RGB)                   :  R=255  G=220  B=30
+
+--------------------------------------------------------------------------------
+  [2] Mercury / Mercúrio
+--------------------------------------------------------------------------------
+  Mass / Massa                        :  3.3011e+23 kg
+  Initial position / Posição inicial  :  X =  0.0000e+00 m
+                                         Y =  5.7909e+10 m   (perihelion / periélio)
+                                         Z =  0.0000e+00 m
+  Initial velocity / Velocidade inicial:  VX = -47870 m/s
+                                          VY =  0 m/s
+                                          VZ =  0 m/s
+  Color / Cor (RGB)                   :  R=169  G=169  B=169
+
+--------------------------------------------------------------------------------
+  [3] Venus / Vênus
+--------------------------------------------------------------------------------
+  Mass / Massa                        :  4.8675e+24 kg
+  Initial position / Posição inicial  :  X = -1.0821e+11 m  (perihelion / periélio)
+                                         Y =  0.0000e+00 m
+                                         Z =  0.0000e+00 m
+  Initial velocity / Velocidade inicial:  VX =  0 m/s
+                                          VY = -35020 m/s
+                                          VZ =  0 m/s
+  Color / Cor (RGB)                   :  R=230  G=190  B=90
+
+--------------------------------------------------------------------------------
+  [4] Earth / Terra
+--------------------------------------------------------------------------------
+  Mass / Massa                        :  5.9722e+24 kg
+  Initial position / Posição inicial  :  X =  0.0000e+00 m
+                                         Y = -1.4960e+11 m  (perihelion / periélio)
+                                         Z =  0.0000e+00 m
+  Initial velocity / Velocidade inicial:  VX =  29780 m/s
+                                          VY =  0 m/s
+                                          VZ =  0 m/s
+  Color / Cor (RGB)                   :  R=30   G=144  B=255
+
+--------------------------------------------------------------------------------
+  [5] Mars / Marte
+--------------------------------------------------------------------------------
+  Mass / Massa                        :  6.4171e+23 kg
+  Initial position / Posição inicial  :  X =  2.2794e+11 m  (perihelion / periélio)
+                                         Y =  0.0000e+00 m
+                                         Z =  0.0000e+00 m
+  Initial velocity / Velocidade inicial:  VX =  0 m/s
+                                          VY =  24070 m/s
+                                          VZ =  0 m/s
+  Color / Cor (RGB)                   :  R=210  G=80   B=50
+
+--------------------------------------------------------------------------------
+  [6] Jupiter / Júpiter
+--------------------------------------------------------------------------------
+  Mass / Massa                        :  1.8982e+27 kg
+  Initial position / Posição inicial  :  X =  0.0000e+00 m
+                                         Y =  7.7857e+11 m  (perihelion / periélio)
+                                         Z =  0.0000e+00 m
+  Initial velocity / Velocidade inicial:  VX = -13070 m/s
+                                          VY =  0 m/s
+                                          VZ =  0 m/s
+  Color / Cor (RGB)                   :  R=210  G=170  B=120
+
+--------------------------------------------------------------------------------
+  [7] Saturn / Saturno
+--------------------------------------------------------------------------------
+  Mass / Massa                        :  5.6834e+26 kg
+  Initial position / Posição inicial  :  X = -1.4335e+12 m  (perihelion / periélio)
+                                         Y =  0.0000e+00 m
+                                         Z =  0.0000e+00 m
+  Initial velocity / Velocidade inicial:  VX =  0 m/s
+                                          VY = -9690 m/s
+                                          VZ =  0 m/s
+  Color / Cor (RGB)                   :  R=235  G=210  B=120
+
+--------------------------------------------------------------------------------
+  [8] Uranus / Urano
+--------------------------------------------------------------------------------
+  Mass / Massa                        :  8.6810e+25 kg
+  Initial position / Posição inicial  :  X =  0.0000e+00 m
+                                         Y = -2.8725e+12 m  (perihelion / periélio)
+                                         Z =  0.0000e+00 m
+  Initial velocity / Velocidade inicial:  VX =  6810 m/s
+                                          VY =  0 m/s
+                                          VZ =  0 m/s
+  Color / Cor (RGB)                   :  R=140  G=230  B=240
+
+--------------------------------------------------------------------------------
+  [9] Neptune / Netuno
+--------------------------------------------------------------------------------
+  Mass / Massa                        :  1.0241e+26 kg
+  Initial position / Posição inicial  :  X =  4.4951e+12 m  (perihelion / periélio)
+                                         Y =  0.0000e+00 m
+                                         Z =  0.0000e+00 m
+  Initial velocity / Velocidade inicial:  VX =  0 m/s
+                                          VY =  5430 m/s
+                                          VZ =  0 m/s
+  Color / Cor (RGB)                   :  R=40   G=70   B=220
+
+================================================================================
+  DATA SOURCES / FONTES DOS DADOS
+================================================================================
+
+  - NASA Planetary Fact Sheet (Williams, D. R., 2024)
+    https://nssdc.gsfc.nasa.gov/planetary/factsheet/
+
+  - For date-accurate ephemeris data / Para dados de efemérides precisos por data:
+    JPL Horizons — https://ssd.jpl.nasa.gov/horizons/
+
+================================================================================
