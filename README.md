@@ -1,4 +1,4 @@
-##🌌 N-Body-Gravitational-Simulator
+🌌 N-Body Gravitational Simulator
 ---
 
 **Version 3.0** | Python | 3D Newtonian Simulation
@@ -154,6 +154,29 @@ This conserves energy significantly better than the explicit Euler method, altho
 - GIF generation can be slow for simulations with many time steps; automatic frame sampling kicks in above 1000 frames.
 - No support for non-gravitational forces (radiation pressure, atmospheric drag, etc.).
 - The simulation operates in a fixed inertial reference frame with no relativistic corrections.
+
+---
+
+## Gallery
+
+### Animated Simulation
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pancakehoneyb/N-Body-Gravitational-Simulator/main/frames-and-gif/animacao_gravitacional.gif" width="400" />
+</p>
+
+### Frame Samples
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pancakehoneyb/N-Body-Gravitational-Simulator/main/frames-and-gif/frame_000000.png" width="280"/>
+  <img src="https://raw.githubusercontent.com/pancakehoneyb/N-Body-Gravitational-Simulator/main/frames-and-gif/frame_001150.png" width="280"/>
+  <img src="https://raw.githubusercontent.com/pancakehoneyb/N-Body-Gravitational-Simulator/main/frames-and-gif/frame_002190.png" width="280"/>
+</p>
+<p align="center">
+  <em>Start of simulation &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp; Mid simulation &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp; Late simulation</em>
+</p>
+
+> 📁 All frames are saved under `simulation_3d/` after running the simulator with the animation option enabled.
 
 ---
 
